@@ -8,3 +8,83 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+    html {
+        font-size: 62.5%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+        font-family: 'Sirin Stencil', sans-serif;
+        font-weight: 400;
+        font-size: 7.6rem;
+        color: #00476A;
+        text-transform: uppercase;
+    }
+
+    .wrapper {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    header {
+        height: 80vh;
+        background-image: url(../images/header-image.jpg);
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+    }
+
+    header .wrapper {
+        height: 10vh;
+        width: 100%;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        float: left;
+        font-size: 3.5rem;
+        font-weight: 400;
+        font-family: 'Sirin Stencil', sans-serif;
+        color: #222428;
+        text-transform: uppercase;
+    }
+
+    .wrapper nav {
+        float: right;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 100%;
+        width: 65%;
+        max-width: 500px;
+    }
+
+    .wrapper nav a {
+        text-align: center;
+        flex: 1 1 auto;
+        font-family: 'Lato', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: #00476A;
+        text-transform: capitalize;
+    }
+
+    .wrapper nav a:hover {
+        text-decoration: underline #00C6FF;
+    }
+
+    .shop-now {
+        padding: 15px 15px;
+        font-family: 'Lato', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: #FFF;
+        text-transform: capitalize;
+        background-color: #00476a;
+        border-radius: 5px;
+    }
