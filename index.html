@@ -14,10 +14,10 @@
         <div class="wrapper-90-nav">
             <div class="logo">treasure</div>
             <nav>
-                <a href="" class="box box1">home</a>
-                <a href="" class="box box2">shop</a>
-                <a href="" class="box box3">blog</a>
-                <a href="" class="box box4">contact</a>
+                <a href="">home</a>
+                <a href="">shop</a>
+                <a href="">blog</a>
+                <a href="">contact</a>
             </nav>
         </div>
 
@@ -30,12 +30,12 @@
     <main>
         <div class="wrapper-80">
             <div class="box-a">
-                <div class="boxa1"><h3>latest blog posts</h3></div>
-                <div class="boxa2"><h2>our journey to <br> greece and moracco</h2> </div>
-                <div class="boxa3 arrow">&#60;</div>
-                <div class="boxa4"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ab repellendus, laborum corrupti consequuntur quae porro? Maiores quas voluptatibus quos velit? Culpa tenetur explicabo ullam beatae quibusdam voluptas, ratione earum.</p></div>
-                <div class="boxa5 arrow">&#62;</div>
-                <div class="boxa6"><a href="">learn more</a></div>
+                <h3>latest blog posts</h3>
+                <h2>our journey to <br> greece and moracco</h2>
+                <div class="arrow arrow1">&#60;</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ab repellendus, laborum corrupti consequuntur quae porro? Maiores quas voluptatibus quos velit? Culpa tenetur explicabo ullam beatae quibusdam voluptas, ratione earum.</p>
+                <div class="arrow arrow2">&#62;</div>
+                <a href="">learn more</a>
             </div>
         </div>
     </main>
@@ -43,7 +43,7 @@
     <section>
         <div class="wrapper-80">
             <div class="box-b">
-                <div class="boxb1"><h2>latest adventures</h2></div>
+                <h2>latest adventures</h2>
                 <div class="boxb2">
                     <img src="images/turkey.jpg" alt="A medley of hot air baloons over a beautiful Turkish desert.">
                     <h4>turkey</h4>
@@ -63,8 +63,8 @@
     <section class="white">
         <div class="wrapper-80">
             <div class="box-c">
-                <div class="boxc1">
-                    <img src="images/blue-vase.jpg" alt="A picture of blue and white pottery vase with a Chinese dragon" class="vase">
+                <div>
+                    <img  class="vase" src="images/blue-vase.jpg" alt="A picture of blue and white pottery vase with a Chinese dragon">
                 </div>
                 <div class="boxc2">
                     <h2>beautiful blue dragon vase</h2>
@@ -82,21 +82,17 @@
     <footer>
         <div class="background-dark">
             <div class="wrapper-80">
-                <div class="box-d">
-                    <div class="boxd1"><h2>contact us</h2></div>
-                    <div class="boxd2">
-                        <input type="text" id="name" name="name" placeholder="Name">
-                    </div>
-                    <div class="boxd3">
-                        <input type="email" id="email" name="email" placeholder="E-Mail">
-                    </div>
-                    <div class="boxd4">
-                        <textarea name="message" placeholder="Message"></textarea>
-                    </div>
-                    <div class="boxd5">
-                        <input type="submit" name="submit" value="submit">
-                    </div>
-                </div>
+                <form class="footer-form">
+                    <h2>contact us</h2>
+                    <label for="name" class="sr-only">input name</label>
+                    <input type="text" id="name" name="name" placeholder="Name">
+                    <label for="email" class="sr-only">input e-mail</label>
+                    <input type="email" id="email" name="email" placeholder="E-Mail">
+                    <label for="message" class="sr-only">input message</label>
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <label for="submit" class="sr-only">submit button</label>
+                    <input type="submit" name="submit" value="submit">
+                </form>
             </div>
         </div>
     </footer>
